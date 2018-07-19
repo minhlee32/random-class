@@ -7,7 +7,10 @@ public class MyRandom {
         return random.nextInt(100);
     }
 
-    private void printRandomNumbers() {
-        System.out.println(randomNumbers() + "\t");
+    public void printRandomNumbers() {
+        for (int i = 0; i < 50; i++) {
+
+            System.out.println(randomNumbers() + "\t");
+        }
     }
 }
